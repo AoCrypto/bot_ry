@@ -3,8 +3,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 from binance.client import Client
 
-api_key = 'AHAH'
-api_secret = 'AHAH'
+api_key = 'NONE'
+api_secret = 'NONE'
 client = Client(api_key, api_secret)
 
 def create_segments(min_price, max_price, segment_size):
